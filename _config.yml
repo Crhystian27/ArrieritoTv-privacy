@@ -1,5 +1,3 @@
 title: Arriero Andariego Food Truck
-description: Política de Privacidad - Aplicación Arrierito TV
-remote_theme: son-link/jekyll-minimal-dark-orange
-plugins:
-  - jekyll-remote-theme
+description: Política de Privacidad - Arrierito TV
+theme: jekyll-theme-merlot
