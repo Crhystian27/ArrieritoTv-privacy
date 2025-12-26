@@ -24,7 +24,7 @@ Esta aplicación **no recopila datos personales de usuarios finales** ya que fun
 |-------|-------------|
 | **Aplicación** | Arrierito TV |
 | **Negocio** | Arriero Andariego Food Truck |
-| **Desarrollador** | Cristian David Soto Ramirez |
+| **Desarrollador** | Crhystian |
 | **Ubicación** | Cartago, Valle del Cauca, Colombia |
 | **Plataforma** | Google TV / Android TV |
 | **Operando desde** | 2015 |
@@ -192,18 +192,6 @@ Nos reservamos el derecho de actualizar esta política de privacidad cuando sea 
 | Fecha | Versión | Cambios |
 |-------|---------|---------|
 | Diciembre 2025 | 1.0 | Versión inicial |
-
----
-
-## 12. Información de Contacto
-
-**Arriero Andariego Food Truck**
-
-| | |
-|---|---|
-| **Desarrollador** | Cristian David Soto Ramirez |
-| **Ubicación** | Cartago, Valle del Cauca, Colombia |
-| **GitHub** | [github.com/crhystian27](https://github.com/crhystian27) |
 
 ---
 
