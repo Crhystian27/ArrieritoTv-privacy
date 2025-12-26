@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![Arriero Andariego Logo](logo.png)
+
 # Política de Privacidad
 
 **Última actualización:** Diciembre 2025
@@ -10,7 +12,9 @@ layout: default
 
 ## Resumen
 
-Arrierito es una aplicación de Digital Signage para Google TV diseñada para mostrar contenido publicitario en pantallas del food truck. **No recopila datos personales de usuarios finales** ya que funciona en modo kiosko sin interacción del usuario.
+**Arrierito TV** es una aplicación de Digital Signage para Google TV diseñada para mostrar contenido publicitario en pantallas del food truck **Arriero Andariego**. 
+
+Esta aplicación **no recopila datos personales de usuarios finales** ya que funciona en modo kiosko sin interacción del usuario.
 
 ---
 
@@ -18,13 +22,12 @@ Arrierito es una aplicación de Digital Signage para Google TV diseñada para mo
 
 | Campo | Información |
 |-------|-------------|
-| Aplicación | Arrierito TV |
-| Negocio | Arriero Andariego Food Truck |
-| Desarrollador | Cristian David Soto Ramirez |
-| Ubicación | Cartago, Valle del Cauca, Colombia |
-| Contacto | cdavid2127@gmail.com |
-| Plataforma | Google TV / Android TV |
-| Desde | 2015 |
+| **Aplicación** | Arrierito TV |
+| **Negocio** | Arriero Andariego Food Truck |
+| **Desarrollador** | Cristian David Soto Ramirez |
+| **Ubicación** | Cartago, Valle del Cauca, Colombia |
+| **Plataforma** | Google TV / Android TV |
+| **Operando desde** | 2015 |
 
 ---
 
@@ -38,13 +41,16 @@ Arrierito es una aplicación de Digital Signage para Google TV diseñada para mo
 - Funcionar en modo kiosko 24/7 sin intervención humana
 - Sincronizar contenido multimedia desde la nube
 
-### Características
+### Características Técnicas
 
-- **Modo Kiosko**: Se ejecuta como launcher principal del dispositivo
-- **Sin Interacción**: El contenido se reproduce automáticamente
-- **Uso Comercial**: Diseñada para el establecimiento, no para usuarios individuales
+| Característica | Descripción |
+|----------------|-------------|
+| **Modo Kiosko** | Se ejecuta como launcher principal del dispositivo |
+| **Reproducción Automática** | El contenido se muestra sin interacción del usuario |
+| **Sincronización** | Contenido actualizado desde Firebase en tiempo real |
+| **Modo Offline** | Funciona sin conexión usando caché local |
 
-> ⚠️ **Importante:** Esta aplicación NO está diseñada para uso personal. Es una herramienta empresarial para mostrar publicidad en pantallas del food truck.
+> ⚠️ **Nota:** Esta aplicación es de uso empresarial exclusivo. No está diseñada para usuarios individuales.
 
 ---
 
@@ -52,43 +58,51 @@ Arrierito es una aplicación de Digital Signage para Google TV diseñada para mo
 
 ### 3.1 Datos Técnicos del Dispositivo
 
+La aplicación recopila información técnica **únicamente para diagnóstico y mejora del servicio**:
+
 | Dato | Propósito | Identificable |
 |------|-----------|---------------|
 | Firebase Installation ID | Identificar dispositivo para soporte | Pseudónimo |
-| Fabricante y Modelo | Optimizar rendimiento | No |
-| Versión de Android | Compatibilidad | No |
-| Resolución de Pantalla | Optimizar visualización | No |
-| Versión de la App | Soporte técnico | No |
-| Idioma/Región | Localización | No |
+| Fabricante y Modelo | Optimizar rendimiento por dispositivo | No |
+| Versión de Android | Compatibilidad y debugging | No |
+| Resolución de Pantalla | Optimizar visualización de contenido | No |
+| Versión de la App | Soporte técnico y actualizaciones | No |
+| Idioma/Región | Localización del contenido | No |
 
-### 3.2 Datos de Uso
+### 3.2 Eventos de Uso
 
-| Evento | Datos | Propósito |
-|--------|-------|-----------|
-| Inicio de Sesión | Timestamp | Monitorear disponibilidad |
-| Video Completado | ID, nombre, duración | Analítica de contenido |
-| Errores | Tipo, mensaje | Diagnóstico |
+| Evento | Datos Incluidos | Propósito |
+|--------|-----------------|-----------|
+| Inicio de Sesión | Timestamp | Monitorear disponibilidad del dispositivo |
+| Video Completado | ID, nombre, duración | Analítica de contenido mostrado |
+| Errores | Tipo de error, mensaje | Diagnóstico y mejora de estabilidad |
 
 ### 3.3 Datos que NO Recopilamos
 
-- ❌ Nombres, emails o información personal
-- ❌ Ubicación GPS o geolocalización
-- ❌ Cuentas de Google o credenciales
-- ❌ Historial de navegación
-- ❌ Contactos, fotos o archivos
-- ❌ Información de pago
-- ❌ Datos biométricos o de salud
+Esta aplicación **NO recopila** ninguno de los siguientes datos:
+
+- ❌ Nombres, emails o información de contacto
+- ❌ Ubicación GPS o geolocalización precisa
+- ❌ Cuentas de Google o credenciales de acceso
+- ❌ Historial de navegación web
+- ❌ Contactos, fotos o archivos del dispositivo
+- ❌ Información de pago o financiera
+- ❌ Datos biométricos
+- ❌ Información de salud
+- ❌ Comunicaciones (llamadas, mensajes)
 
 ---
 
 ## 4. Permisos de la Aplicación
 
-| Permiso | Uso | Obligatorio |
-|---------|-----|-------------|
-| INTERNET | Descargar contenido y sincronizar | Sí |
-| ACCESS_NETWORK_STATE | Detectar conectividad | Sí |
+La aplicación solicita únicamente los **permisos mínimos necesarios**:
 
-> 📝 **Nota:** NO solicitamos permisos de cámara, micrófono, ubicación, contactos ni almacenamiento externo.
+| Permiso | Uso |
+|---------|-----|
+| `INTERNET` | Descargar contenido multimedia y sincronizar con Firebase |
+| `ACCESS_NETWORK_STATE` | Detectar conectividad para habilitar modo offline |
+
+> 📝 La aplicación **NO** solicita permisos de cámara, micrófono, ubicación, contactos, almacenamiento externo ni ningún otro permiso sensible.
 
 ---
 
@@ -96,85 +110,101 @@ Arrierito es una aplicación de Digital Signage para Google TV diseñada para mo
 
 ### Firebase (Google)
 
+La aplicación utiliza los siguientes servicios de Firebase:
+
 | Servicio | Propósito |
 |----------|-----------|
-| Firebase Firestore | Sincronizar contenido multimedia |
-| Firebase Analytics | Analítica de uso |
-| Firebase Crashlytics | Reportes de errores |
-| Firebase Installations | ID único del dispositivo |
+| **Firebase Firestore** | Almacenar y sincronizar configuración de contenido |
+| **Firebase Analytics** | Analítica de uso y rendimiento |
+| **Firebase Crashlytics** | Reportes de errores y estabilidad |
+| **Firebase Installations** | Identificación única del dispositivo |
 
-Política de privacidad de Firebase: [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy)
+Para más información: [Política de Privacidad de Firebase](https://firebase.google.com/support/privacy)
 
 ---
 
 ## 6. Almacenamiento de Datos
 
-### Local (en el dispositivo)
+### Almacenamiento Local
 
 | Tipo | Contenido | Retención |
 |------|-----------|-----------|
-| Base de Datos Room | Caché de contenido | Hasta limpieza manual |
-| Caché de Imágenes | Imágenes descargadas | 200MB máx, auto-limpieza |
+| Base de Datos Room | Caché de contenido multimedia | Hasta limpieza manual |
+| Caché de Imágenes | Imágenes descargadas | 200MB máximo, auto-limpieza |
 
-### En la Nube
+### Almacenamiento en la Nube
 
 | Servicio | Datos | Retención |
 |----------|-------|-----------|
-| Firebase Firestore | Configuración | Indefinida |
+| Firebase Firestore | Configuración de contenido | Indefinida |
 | Firebase Analytics | Eventos de uso | 14 meses |
-| Firebase Crashlytics | Errores | 90 días |
+| Firebase Crashlytics | Reportes de errores | 90 días |
 
 ---
 
-## 7. Transferencia de Datos
+## 7. Transferencia Internacional de Datos
 
-Los datos técnicos se transfieren a **Google LLC** (Estados Unidos) a través de Firebase, bajo las cláusulas contractuales estándar de Google que cumplen con GDPR.
+Los datos técnicos recopilados se transfieren a **Google LLC** (Estados Unidos) a través de los servicios de Firebase.
+
+Estas transferencias se realizan bajo las cláusulas contractuales estándar de Google, que garantizan un nivel adecuado de protección de datos conforme a las regulaciones internacionales de privacidad.
 
 ---
 
 ## 8. Uso Exclusivo
 
-Esta aplicación es de **uso interno exclusivo** para el negocio Arriero Andariego Food Truck. No está disponible para descarga pública ni dirigida a usuarios externos.
+Esta aplicación es de **uso interno exclusivo** para el negocio **Arriero Andariego Food Truck**.
 
-El dispositivo donde se ejecuta la aplicación es propiedad del negocio y está bajo su control administrativo.
+- No está disponible para descarga pública
+- No está dirigida a usuarios externos
+- El dispositivo donde se ejecuta es propiedad del negocio
+- El negocio mantiene control administrativo total sobre la aplicación
 
 ---
 
-## 9. Seguridad
+## 9. Medidas de Seguridad
 
-- ✅ Comunicaciones cifradas (HTTPS/TLS)
-- ✅ Firebase Security Rules
-- ✅ Sin almacenamiento de credenciales
-- ✅ Código ofuscado (ProGuard)
-- ✅ Firma digital de la aplicación
+La aplicación implementa las siguientes medidas de seguridad:
+
+| Medida | Descripción |
+|--------|-------------|
+| **Cifrado en tránsito** | Todas las comunicaciones usan HTTPS/TLS |
+| **Firebase Security Rules** | Reglas de acceso configuradas en la nube |
+| **Sin credenciales** | No se almacenan contraseñas ni tokens de usuario |
+| **Código ofuscado** | ProGuard activado en versión de producción |
+| **Firma digital** | APK/AAB firmado con certificado del desarrollador |
 
 ---
 
 ## 10. Menores de Edad
 
-🚫 **Esta aplicación NO está dirigida a menores.**
+Esta aplicación **NO está dirigida a menores de edad**.
 
-Es una herramienta empresarial para cartelería digital. No recopila datos de ningún usuario.
-
----
-
-## 11. Cambios en la Política
-
-Los cambios serán publicados en esta página con la fecha de actualización.
-
-**Historial:**
-- Diciembre 2025 - Versión inicial
+Es una herramienta empresarial para cartelería digital que no recopila datos de ningún usuario, incluyendo menores.
 
 ---
 
-## 12. Contacto
+## 11. Cambios en esta Política
 
-**🚚 Arriero Andariego Food Truck**
+Nos reservamos el derecho de actualizar esta política de privacidad cuando sea necesario. Los cambios serán publicados en esta página con la fecha de actualización correspondiente.
 
-- **Desarrollador:** Cristian David Soto Ramirez
-- **Email:** cdavid2127@gmail.com
-- **Ubicación:** Cartago, Valle del Cauca, Colombia
+### Historial de Versiones
+
+| Fecha | Versión | Cambios |
+|-------|---------|---------|
+| Diciembre 2025 | 1.0 | Versión inicial |
 
 ---
 
-© 2025 Arriero Andariego Food Truck | Since 2015 | Cartago, Colombia
+## 12. Información de Contacto
+
+**Arriero Andariego Food Truck**
+
+| | |
+|---|---|
+| **Desarrollador** | Cristian David Soto Ramirez |
+| **Ubicación** | Cartago, Valle del Cauca, Colombia |
+| **GitHub** | [github.com/crhystian27](https://github.com/crhystian27) |
+
+---
+
+**© 2025 Arriero Andariego Food Truck** | Since 2015 | Cartago, Colombia
