@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Arriero Andariego Logo](logo.png)
+![Arriero Andariego Logo](ArrieritoTv.png)
 
 # Política de Privacidad
 
