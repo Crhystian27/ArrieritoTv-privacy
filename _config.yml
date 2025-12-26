@@ -1,36 +1,5 @@
-# Arrierito Privacy Policy - GitHub Pages Configuration
-# Theme: Minimal with custom colors based on Arriero Andariego Food Truck logo
-
-title: Arrierito - Política de Privacidad
-description: Política de privacidad de la aplicación Arrierito TV para Google TV
-author: Cristian David Soto Ramirez
-email: crhystian27@gmail.com
-
-# Theme configuration
-remote_theme: pages-themes/minimal@v0.2.0
+title: Arriero Andariego Food Truck
+description: Política de Privacidad - Aplicación Arrierito TV
+remote_theme: son-link/jekyll-minimal-dark-orange
 plugins:
   - jekyll-remote-theme
-
-# Custom colors (basados en logo Arriero Andariego Food Truck)
-colors:
-  primary: "#F5A623"      # Amarillo/Dorado (círculo del logo)
-  secondary: "#1A1A1A"    # Negro (fondo del logo)
-  accent: "#FF6B00"       # Naranja (food truck)
-  red: "#E53935"          # Rojo (parte inferior del truck)
-  background: "#FFFDE7"   # Amarillo muy claro
-  text: "#1A1A1A"         # Negro para texto
-
-# Site settings
-baseurl: "/arrierito-privacy"
-url: "https://crhystian27.github.io"
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-# Exclude from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - CHANGELOG.md
