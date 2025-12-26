@@ -2,7 +2,9 @@
 layout: default
 ---
 
-![Arriero Andariego Logo](ArrieritoTv.png)
+<p align="center">
+  <img src="ArrieritoTv.png" alt="Arriero Andariego Logo" width="150">
+</p>
 
 # Política de Privacidad
 
