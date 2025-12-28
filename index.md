@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: page
+title: "Política de Privacidad"
+image:
+  path: /ic_caseta.png
+  caption: "Arriero Andariego Food Truck"
 ---
-
-<p align="center">
-  <img src="ArrieritoTv.png" alt="Arriero Andariego Logo" width="150">
-</p>
-
-# Política de Privacidad
 
 **Última actualización:** Diciembre 2025
 
@@ -194,7 +192,3 @@ Nos reservamos el derecho de actualizar esta política de privacidad cuando sea 
 | Fecha | Versión | Cambios |
 |-------|---------|---------|
 | Diciembre 2025 | 1.0 | Versión inicial |
-
----
-
-**© 2025 Arriero Andariego Food Truck** | Since 2015 | Cartago, Colombia
