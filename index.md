@@ -1,8 +1,10 @@
 ---
-layout: post
-title: "Política de Privacidad"
-author: "Arriero Andariego Food Truck"
+layout: default
 ---
+
+![Arriero Andariego Logo](ic_logo.png)
+
+# Política de Privacidad
 
 **Última actualización:** Diciembre 2025
 
@@ -190,3 +192,18 @@ Nos reservamos el derecho de actualizar esta política de privacidad cuando sea 
 | Fecha | Versión | Cambios |
 |-------|---------|---------|
 | Diciembre 2025 | 1.0 | Versión inicial |
+
+---
+
+## Contacto
+
+📱 [WhatsApp +57 323 813 0154](https://wa.me/573238130154)
+
+📍 [Ubicación en Google Maps](https://maps.app.goo.gl/tcMBVLJFAHTURiaE7)
+
+[![Instagram](https://img.shields.io/badge/Instagram-arrieroandariego1-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/arrieroandariego1)
+[![Facebook](https://img.shields.io/badge/Facebook-ElArrieroAndariego-1877F2?style=flat&logo=facebook&logoColor=white)](https://web.facebook.com/ElArrieroAndariego/)
+
+---
+
+**© 2025 Arriero Andariego Food Truck** | Since 2015 | Cartago, Colombia
