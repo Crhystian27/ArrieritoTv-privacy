@@ -5,14 +5,14 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 locale: "es-CO"
 title: "Arriero Andariego"
 description: "Política de Privacidad - Arrierito TV"
-baseurl: ""
-url: ""
-logo: "/ic_logo.png"
+baseurl: "/ArrieritoTv-privacy"
+url: "https://crhystian27.github.io"
+logo: "/ArrieritoTv-privacy/ic_logo.png"
 
 # Site Author
 author:
   name: "Arriero Andariego Food Truck"
-  picture: "/ic_logo.png"
+  picture: "/ArrieritoTv-privacy/ic_logo.png"
   links:
     - title: Instagram
       url: https://www.instagram.com/arrieroandariego1
