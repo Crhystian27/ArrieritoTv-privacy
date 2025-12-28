@@ -13,6 +13,7 @@ logo: "/ic_logo.png"
 author:
   name: "Arriero Andariego Food Truck"
   picture: "/ic_logo.png"
+  bio: "Food Truck desde 2015 · Cartago, Colombia"
   links:
     - title: Instagram
       url: https://www.instagram.com/arrieroandariego1
@@ -20,7 +21,7 @@ author:
     - title: Facebook
       url: https://web.facebook.com/ElArrieroAndariego/
       icon: fab fa-facebook
-    - title: WhatsApp
+    - title: WhatsApp +57 323 813 0154
       url: https://wa.me/573238130154
       icon: fab fa-whatsapp
     - title: Ubicación

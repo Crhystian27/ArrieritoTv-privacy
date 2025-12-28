@@ -1,9 +1,7 @@
 ---
-layout: page
+layout: post
 title: "Política de Privacidad"
-image:
-  path: /ic_caseta.png
-  caption: "Arriero Andariego Food Truck"
+author: "Arriero Andariego Food Truck"
 ---
 
 **Última actualización:** Diciembre 2025
