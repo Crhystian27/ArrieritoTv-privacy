@@ -7,12 +7,12 @@ title: "Arriero Andariego"
 description: "Política de Privacidad - Arrierito TV"
 baseurl: "/ArrieritoTv-privacy"
 url: "https://crhystian27.github.io"
-logo: "/ArrieritoTv-privacy/ic_logo.png"
+logo: "/ic_logo.png"
 
 # Site Author
 author:
   name: "Arriero Andariego Food Truck"
-  picture: "/ArrieritoTv-privacy/ic_logo.png"
+  picture: "/ic_logo.png"
   links:
     - title: Instagram
       url: https://www.instagram.com/arrieroandariego1

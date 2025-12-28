@@ -2,7 +2,7 @@
 layout: page
 title: "Política de Privacidad"
 image:
-  path: /ArrieritoTv-privacy/ic_caseta.png
+  path: /ic_caseta.png
   caption: "Arriero Andariego Food Truck"
 ---
 
