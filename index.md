@@ -2,7 +2,9 @@
 layout: default
 ---
 
-![Arriero Andariego Logo](ic_logo.png)
+<p align="center">
+  <img src="ic_logo.png" alt="Arriero Andariego Logo" width="150">
+</p>
 
 # Política de Privacidad
 
